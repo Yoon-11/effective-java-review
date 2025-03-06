@@ -20,10 +20,10 @@ public class Iter2 {
 
         long startTime = System.nanoTime();
 
-        long sum = 0; // 값을 누적하여 연산 수행
+        long sum = 0;
         Iterator<Integer> iterator = numbers.iterator();
         while (iterator.hasNext()) {
-            sum += iterator.next(); // 실제 값을 사용
+            sum += iterator.next();
         }
 
         long endTime = System.nanoTime();
@@ -39,9 +39,9 @@ public class Iter2 {
 
         long startTime = System.nanoTime();
 
-        long sum = 0; // 값을 누적하여 연산 수행
+        long sum = 0;
         for (int num : numbers) {
-            sum += num; // 실제 값을 사용
+            sum += num;
         }
 
         long endTime = System.nanoTime();

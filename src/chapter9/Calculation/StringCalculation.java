@@ -2,7 +2,7 @@ package chapter9.Calculation;
 
 import chapter9.PrintFormattedTime;
 
-/** 문자열 연결은 느리니 주의하라
+/** 아이템 63 : 문자열 연결은 느리니 주의하라
  * 성능을 신경써야하고 많은 문자열을 연결할 때는 문자열 연결 연산자(+)를 피하자.
  * 그럴때는 StringBuilder의 append() 사용
  *
@@ -29,7 +29,7 @@ public class StringCalculation {
     public static void goodStringBuilder() {
         long startTime = System.nanoTime();
 
-        StringBuilder sb = new StringBuilder(6_000_000); // 예상 크기 설정
+        StringBuilder sb = new StringBuilder(6_000_000);
         for (int i = 0; i < 100_000; i++) {
             sb.append(i);
         }

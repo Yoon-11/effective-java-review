@@ -1,10 +1,13 @@
-package chapter9.library;
+package chapter9.item59_library;
 
 import chapter9.PrintFormattedTime;
 
 import java.util.Arrays;
 import java.util.Random;
 
+/** 아이템 59 : 라이브러리를 익히고 사용하라
+ * 내가 구현하는 것보다 이미 나와있는 라이브러리가 최고다.
+ */
 public class Library {
     public static void main(String[] args) {
         badSorting();
