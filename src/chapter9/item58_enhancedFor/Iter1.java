@@ -4,6 +4,7 @@ import chapter9.PrintFormattedTime;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -25,9 +26,10 @@ public class Iter1 {
     }
 
     public static void badForLoop() {
-        List<Integer> list = new ArrayList<>();
-//        List<Integer> list = new LinkedList<>();
-        for (int i = 0; i < 10_000_000; i++) {
+//        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new LinkedList<>();
+
+        for (int i = 0; i < 100_000; i++) {
             list.add(i);
         }
 
@@ -44,9 +46,9 @@ public class Iter1 {
     }
 
     public static void goodForEachLoop() {
-        List<Integer> list = new ArrayList<>();
-//        List<Integer> list = new LinkedList<>();
-        for (int i = 0; i < 10_000_000; i++) {
+//        List<Integer> list = new ArrayList<>();
+        List<Integer> list = new LinkedList<>();
+        for (int i = 0; i < 100_000; i++) {
             list.add(i);
         }
 

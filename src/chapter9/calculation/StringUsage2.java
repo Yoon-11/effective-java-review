@@ -1,4 +1,4 @@
-package chapter9.Calculation;
+package chapter9.calculation;
 
 public class StringUsage2 {
     public static void main(String[] args) {

@@ -22,6 +22,8 @@ class BadExample {
 
     /*
 
+
+
      */
     public static void badScope() {
         long startTime = System.nanoTime();

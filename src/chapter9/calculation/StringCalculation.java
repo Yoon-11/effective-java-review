@@ -1,4 +1,4 @@
-package chapter9.Calculation;
+package chapter9.calculation;
 
 import chapter9.PrintFormattedTime;
 
