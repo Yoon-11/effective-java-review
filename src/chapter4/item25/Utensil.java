@@ -1,3 +1,4 @@
+/*
 package chapter4.item25;
 
 public class Utensil {
@@ -7,3 +8,4 @@ public class Utensil {
 class Dessert{
     static final String NAME = "cake";
 }
+*/
