@@ -1,6 +1,6 @@
-package chapter9.item57_localVariable;
+package chapter09.item57_localVariable;
 
-import chapter9.PrintFormattedTime;
+import chapter09.PrintFormattedTime;
 
 /**
  * 지역변수의 범위를 가장 강력한 기법은 '가장 처음 쓰일때 선언하기'

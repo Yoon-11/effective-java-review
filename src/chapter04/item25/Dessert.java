@@ -1,4 +1,4 @@
-package chapter4.item25;
+package chapter04.item25;
 
 public class Dessert {
     static final String NAME = "pot";

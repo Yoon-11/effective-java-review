@@ -1,6 +1,6 @@
-package chapter9.item59_library;
+package chapter09.item59_library;
 
-import chapter9.PrintFormattedTime;
+import chapter09.PrintFormattedTime;
 
 import java.util.Arrays;
 import java.util.Random;

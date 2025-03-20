@@ -1,4 +1,4 @@
-package chapter4.item22;
+package chapter04.item22;
 
 /**
  * 상수 인터페이스 -> 안티 패턴

@@ -1,6 +1,6 @@
-package chapter9.item61_primitiveAndWrapper;
+package chapter09.item61_primitiveAndWrapper;
 
-import chapter9.PrintFormattedTime;
+import chapter09.PrintFormattedTime;
 
 /** 아이템 61 : 박싱된 기본 타입보다는 기본 타입을 사용하라
  * 기본 타입과 래퍼 클래스 중에 하나를 선택해야 한다면 가능하면 기본 타입 선택

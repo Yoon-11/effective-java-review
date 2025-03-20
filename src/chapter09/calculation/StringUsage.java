@@ -1,4 +1,4 @@
-package chapter9.calculation;
+package chapter09.calculation;
 
 /** 아이템 62 : 다른 타입이 적절하다면 문자열 사용을 피하라
  * 문자열은 열거 타입을 대신하기에 적합하지 않다. 열거 타입은 enum 사용

@@ -1,4 +1,4 @@
-package chapter4.item22;
+package chapter04.item22;
 
 public class UseConstClazz {
     public static void main(String[] args) {

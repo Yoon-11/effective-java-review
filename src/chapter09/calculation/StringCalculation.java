@@ -1,6 +1,6 @@
-package chapter9.calculation;
+package chapter09.calculation;
 
-import chapter9.PrintFormattedTime;
+import chapter09.PrintFormattedTime;
 
 /** 아이템 63 : 문자열 연결은 느리니 주의하라
  * 성능을 신경써야하고 많은 문자열을 연결할 때는 문자열 연결 연산자(+)를 피하자.
